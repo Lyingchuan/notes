@@ -1,5 +1,5 @@
 
-[creat-react-app](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md)
+document:[creat-react-app](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md)
 
 ---
 
@@ -83,17 +83,5 @@ export default App;
 ```
 另外webpack和react-router也有自己的代码分割方法
 
-## React-router-v4
-
-变化:1.在react-router v4中可以将各组件标签放进<Router></Router>中
-
----
-
-```
-<Route exact path="/" component={RootRouter} />
-```
-exact作用是完全匹配,必须是"/"后面不跟任何东西才匹配
-
-经常用来配置根路由(如不设置exact,则渲染"/xx"路由时也会渲染"/"根路由)
 
 

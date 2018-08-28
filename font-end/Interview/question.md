@@ -1,5 +1,5 @@
 
-### 1.求a1的值?
+### 1.求a1的值? 
 ```
 const a1 = [{a:1,b:2}, 2];
 const a2 = a1.concat();
@@ -8,7 +8,7 @@ a2[0].a = 2;
 
 // a1 = [{a:2,b:2},2]
 ```
-类似于concat(),[...arr2] = arr1等拷贝方法只是第一层深拷贝(基本类型如字符串,数字),里面引用类型的属性属于更深层次,因此对象的指针还是指向同一位置.要实现这种深拷贝可以考虑用FOR循环或者如下的封装函数
+类似于Object.assign,concat(),[...arr2] = arr1等拷贝方法只是第一层深拷贝(基本类型如字符串,数字),里面引用类型的属性属于更深层次,因此对象的指针还是指向同一位置.要实现这种深拷贝可以考虑用FOR循环或者如下的封装函数
 
 ```
 const deepClone = obj => {
@@ -23,7 +23,19 @@ const deepClone = obj => {
 ```
 var newObj = JSON.parse(JSON.stringify(someobj))
 ```
-object.assign属于浅复制
+但这种情况
+1. 会忽略 undefined
+2. 不能序列化函数
+3. 不能解决循环引用的对象
+```
+let a = {
+    age: undefined,
+    jobs: function() {},
+    name: 'yck'
+}
+let b = JSON.parse(JSON.stringify(a))
+console.log(b) // {name: "yck"}
+```
 
 ### 2.promise
 ```

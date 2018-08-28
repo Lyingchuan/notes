@@ -143,3 +143,26 @@ methods: {
 </table>
 ```
 
+#### VUE发送事件
+```
+//子组件
+this.$emit('toggle')
+
+//父组件
+<ratingselect @toggle="toggleContent"></ratingselect> //父组件接收到'toggle'会执行toggleContent
+```
+
+### keep-alive
+在被keep-alive包含的组件/路由中，会多出两个生命周期的钩子:activated 与 deactivated
+```
+    beforeMount=> 如果你是从别的路由/组件进来(组件销毁destroyed/或离开缓存deactivated)=>
+    mounted=> activated 进入缓存组件 => 执行 beforeRouteEnter回调
+```
+因为组件被缓存了，再次进入缓存路由/组件时，不会触发这些钩子：
+```
+    // beforeCreate created beforeMount mounted 都不会触发。
+```
+deactivated：组件被停用(离开路由)时调用
+
+使用了keep-alive就不会调用beforeDestroy(组件销毁前钩子)和destroyed(组件销毁)，因为组件没被销毁，被缓存起来了。
+
