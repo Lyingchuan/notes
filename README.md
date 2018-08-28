@@ -24,9 +24,9 @@
 
 - [代码格式化](https://github.com/Lyingchuan/notes/blob/master/font-end/code_format.md)
 
-- [http缓存](https://github.com/Lyingchuan/notes/blob/master/cache.md)
+- [http缓存](https://github.com/Lyingchuan/notes/blob/master/font-end/cache.md)
 
-- [FLOW](https://github.com/Lyingchuan/notes/blob/master/Flow.md)
+- [FLOW](https://github.com/Lyingchuan/notes/blob/master/font-end/Flow.md)
 
 - [SASS和LESS和CSS模块化](https://github.com/Lyingchuan/notes/blob/master/font-end/SASS_LESS_CSSModule.md)
 
