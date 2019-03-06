@@ -1,4 +1,8 @@
-- [前端记录](https://github.com/Lyingchuan/notes/blob/master/font-end/daily_notes.md)
+## 前端日常开发记录
+
+包含开发中碰到的问题,旧知识点的巩固,新知识点的学习
+
+- [前端日常开发记录](https://github.com/Lyingchuan/notes/blob/master/font-end/daily_notes.md)
 
 ## 读书笔记
 
