@@ -1,12 +1,17 @@
+- [前端记录](https://github.com/Lyingchuan/notes/blob/master/font-end/daily_notes.md)
+
 ## 读书笔记
+
 - [you don't know js (上卷)](https://github.com/Lyingchuan/notes/blob/master/font-end/reading_notes/youDontKnowJS-1.md)
 - [you don't know js (中卷)](https://github.com/Lyingchuan/notes/blob/master/font-end/reading_notes/youDontKnowJS-2.md)
 
-## ES6相关
+## ES6 相关
+
 - [async await](https://github.com/Lyingchuan/notes/blob/master/font-end/ES6/async-await.md)
 - [class](https://github.com/Lyingchuan/notes/blob/master/font-end/ES6/class.md)
 
-## React和Vue
+## React 和 Vue
+
 - [creat-react-app](https://github.com/Lyingchuan/notes/blob/master/font-end/frame/react/creat-react-app.md)
 - [Redux-Persist](https://github.com/Lyingchuan/notes/blob/master/font-end/frame/react/Redux-Persist.md)
 - [dependencies](https://github.com/Lyingchuan/notes/blob/master/font-end/frame/react/dependencies.md)
@@ -20,17 +25,16 @@
 - [Vue-router](https://github.com/Lyingchuan/notes/blob/master/font-end/frame/Vue/Vue-router.md)
 
 ## 知识点
-- [日常记录](https://github.com/Lyingchuan/notes/blob/master/font-end/daily_notes.md)
 
 - [代码格式化](https://github.com/Lyingchuan/notes/blob/master/font-end/code_format.md)
 
-- [http缓存](https://github.com/Lyingchuan/notes/blob/master/font-end/cache.md)
+- [http 缓存](https://github.com/Lyingchuan/notes/blob/master/font-end/cache.md)
 
 - [FLOW](https://github.com/Lyingchuan/notes/blob/master/font-end/Flow.md)
 
-- [SASS和LESS和CSS模块化](https://github.com/Lyingchuan/notes/blob/master/font-end/SASS_LESS_CSSModule.md)
+- [SASS 和 LESS 和 CSS 模块化](https://github.com/Lyingchuan/notes/blob/master/font-end/SASS_LESS_CSSModule.md)
 
-- [Node.js基础](https://github.com/Lyingchuan/notes/blob/master/font-end/Node.js.md)
+- [Node.js 基础](https://github.com/Lyingchuan/notes/blob/master/font-end/Node.js.md)
 
 - [移动端适配相关](https://github.com/Lyingchuan/notes/blob/master/font-end/mobile.md)
 
